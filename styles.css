@@ -1,0 +1,13 @@
+body {
+    font-family: "Gill Sans", sans-serif;
+    width:50%;
+    margin:auto;
+}
+.d-none {
+    display:none;
+}
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
