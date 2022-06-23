@@ -49,6 +49,5 @@ if(!password_verify($password, $hash)) {
     // 4.2 : si ok on l'envoi sur une page de succes (genre dashboard)
 $_SESSION['profil']['id']=$user['id'];
 $_SESSION['profil']['email']=$email;
-// header('Location: dashboard.php');
-echo $_SESSION['profil']['id'];
-echo $_SESSION['profil']['email'];
+header('Location: dashboard.php');
+

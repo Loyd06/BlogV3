@@ -108,3 +108,6 @@ On écrit une requête pour récupérer tous les commentaires de l'utilisateur d
 Pour chaque commentaire on ajoute un lien permettant d'accéder a l'article complet avec les tous les commentaires
  echo "<a href='detail_article.php?id={$commentaire['id_article']}'>Voir le détail de l'article</a>";
 
+Refactorisation de la page dashboard.php
+On place les boutons avec une structure alternantive pour se connecter et se déconnecter 
+On implementes également les boutons de navigation pour accéder à la liste des articles et a la liste des commentaires
