@@ -102,3 +102,9 @@ Les valeurs de l'id de l'article est de l'id du commentaires sont passées au sc
 Après éxecution de la requête (mise à jour) on actualise la page detail_article.php
 header("Location: detail_article.php?id=$id_article");
 
+Création de la page liste_commentaire.php
+On écrit une requête pour récupérer tous les commentaires de l'utilisateur dont l'id est en variables de session
+
+Pour chaque commentaire on ajoute un lien permettant d'accéder a l'article complet avec les tous les commentaires
+ echo "<a href='detail_article.php?id={$commentaire['id_article']}'>Voir le détail de l'article</a>";
+
